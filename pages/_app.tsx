@@ -6,7 +6,7 @@ import { GlobalStyle } from '~/style/global'
 
 import '~/style/nprogress.css'
 import '~/style/github.css'
-import '~/style/one-dark.css'
+import '~/style/markdown.css'
 
 Router.events.on('routeChangeStart', () => Progress.start())
 Router.events.on('routeChangeComplete', () => Progress.done())
